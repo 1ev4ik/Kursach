@@ -1,0 +1,250 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.olympus {
+    display: inline-block;
+    padding-left: 230px;
+}
+
+.dropM {
+    display: inline-block; 
+}
+
+.menu {
+    display: inline-block;
+    width: 900px;
+    padding-left: 0;
+}
+
+input {
+    display: none;
+}
+
+header label {
+    display: none;
+}
+
+footer {
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-left: 80px;
+    height: 35px;
+    width: 35px;
+}
+
+ul>li {
+    display: inline-block;
+    margin-left: 18%;
+
+}
+
+.menu_span {
+    display: none;
+    font-family: 'Monoton', cursive;
+}
+
+.big_section {
+    display: flex;
+    flex-flow: column;
+    width: 1080px;
+    padding: 30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.hever_back {
+    background-color: black;
+    border-radius: 15px;
+}
+
+a {
+    position: relative;
+    width: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 15px;
+}
+
+h4 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 10px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+}
+
+.news_img {
+    position: relative;
+    height: 550px;
+    width: 1080px;
+    border-radius: 12px;
+}
+
+.logo_f {
+    height: 50px;
+    width: 300px;
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+
+.logo_sect {
+    background-color: #919191;
+    padding-bottom: 20px;
+}
+
+.icon_sect {
+    background-color: #919191;
+    padding-left: 485px;
+}
+
+.fot {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-left: 510px;
+    margin: 0;
+    width: 400px;
+}
+@media(max-width: 1024px) and (min-width: 395px) {
+
+    header {
+        font-size: 20px;
+    }
+    .olympus {
+        display: inline-block;
+        padding-left: 100px;
+        
+    }
+    
+    .menu {
+        display: inline-block;
+        width: 700px;
+        padding-left: 0;
+    }
+
+    ul>li {
+        margin-left: 15%;
+    }
+
+    .big_section {
+
+        width: 960px;
+
+    }
+
+    .news_section {
+
+        width: 600px;
+
+    }
+
+    .big_article {
+
+        width: 600px;
+
+    }
+
+    .small_article1 {
+        width: 270px;
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .small_article2 {
+        width: 270px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .news_img {
+
+        width: 600px;
+        height: 300px;
+    }
+
+    .news_img2 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .news_img3 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .short_news {
+        width: 300px;
+        padding-left: 25px;
+    }
+
+    .section_table {
+        width: 960px;
+    }
+
+    .table_nba {
+        width: 700px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .east {
+        width: 350px;
+    }
+
+    .vest {
+        width: 350px;
+    }
+
+    .nba_icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo_f {
+        padding-left: 360px;
+    }
+
+    .logo_sect {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .icon_sect {
+        padding-left: 295px;
+    }
+
+    .fot {
+        padding-left: 310px;
+        width: 400px;
+    }
+}

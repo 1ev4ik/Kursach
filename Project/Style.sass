@@ -1,0 +1,475 @@
+.flex
+  display: flex
+  flex-direction: row
+  flex-wrap: wrap
+  justify-content: center
+  margin: 0
+  background-color: #dcdcdc
+
+  header
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+    font-size: 24px
+    background-color: #919191
+    color: rgb(1, 1, 1)
+    width: 100%
+
+    a .olympus
+      display: inline-block
+      padding-left: 230px
+
+    .dropM
+      display: inline-block
+
+    .menu
+      display: inline-block
+      width: 900px
+      padding-left: 0
+
+    input, label
+      display: none
+
+  ul > li
+    display: inline-block
+    margin-left: 18%
+
+  footer
+    background-color: #919191
+    color: rgb(1, 1, 1)
+    width: 100%
+
+    .icon_sect .icon
+      margin-top: 5px
+      margin-left: 80px
+      height: 35px
+      width: 35px
+
+  .big_section
+    display: flex
+    flex-flow: row
+    flex-wrap: wrap
+    width: 1080px
+    padding: 30px
+    background-color: rgb(237, 237, 237)
+
+    .news_section
+      display: flex
+      flex-flow: wrap
+      width: 700px
+      margin: 0px
+
+      .big_article
+        display: block
+        width: 700px
+        margin: 0
+
+      .small_article1
+        flex-flow: row
+        display: block
+        width: 330px
+        margin: 0
+        margin-right: 20px
+        margin-top: 10px
+
+      .small_article2
+        flex-flow: row
+        display: block
+        width: 330px
+        margin: 0
+        margin-left: 20px
+        margin-top: 10px
+
+  a
+    position: relative
+    width: 700px
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+    text-decoration: none
+    color: black
+
+  .big_section .news_section
+    .hever_back
+      background-color: black
+      border-radius: 15px
+
+    .news_img
+      position: relative
+      height: 370px
+      width: 700px
+      border-radius: 12px
+
+    .news_img2, .news_img3
+      position: relative
+      height: 180px
+      width: 330px
+      border-radius: 12px
+
+    .news_img:hover
+      opacity: 0.7
+
+.news_img2:hover, .news_img3:hover
+  opacity: 0.7
+
+.flex
+  .big_section
+    .short_news
+      width: 340px
+      padding-left: 40px
+
+      h2
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-weight: normal
+        margin: 0px
+        border-bottom: 1px solid rgb(108, 108, 108)
+
+      .list_news
+        padding: 0
+        margin: 0px
+
+        > li
+          font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+          border-bottom: 1px solid rgb(108, 108, 108)
+          margin: 0
+          padding-bottom: 10px
+          padding-top: 10px
+
+    .section_table
+      display: flex
+      flex-flow: wrap
+      width: 1080px
+      margin-top: 30px
+
+      h3
+        font-family: Verdana, Geneva, Tahoma, sans-serif
+        font-weight: normal
+        margin: 0px
+
+      table
+        border-collapse: collapse
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        text-align: center
+
+        thead th
+          border-right: 0.5px solid rgb(215, 215, 215)
+
+      .table_nba
+        display: flex
+        flex-flow: wrap
+        width: 800px
+        margin-top: 10px
+        border-radius: 15px
+        background-color: rgb(255, 255, 255)
+
+        tr:nth-child(even)
+          background-color: #d6d6d6
+
+      .lid_table table .foot_icon
+        height: 60px
+        width: 60px
+        float: left
+
+      .table_nba
+        .nba_icon
+          height: 50px
+          width: 50px
+          float: left
+
+        .east
+          width: 400px
+
+        .vest
+          margin-left: 0px
+          width: 400px
+          border-left: 1px solid rgb(8, 8, 8)
+
+      .lid_table .button_stat
+        display: inline-block
+        background-color: rgb(220, 220, 220)
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        text-align: center
+        height: 20px
+        width: 110px
+        border-radius: 20px
+        margin: 25%
+        margin-top: 20px
+        margin-bottom: 10px
+
+        &:hover
+          transition: background-color 0.35s
+          background-color: rgb(172, 172, 172)
+
+      .table_nba .button_P
+        display: inline-block
+        background-color: rgb(220, 220, 220)
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+        text-align: center
+        height: 20px
+        width: 110px
+        border-radius: 20px
+        margin: 50%
+        margin-top: 20px
+        margin-bottom: 10px
+
+        &:hover
+          transition: background-color 0.35s
+          background-color: rgb(172, 172, 172)
+
+    .lid_table
+      margin-top: 10px
+      margin-left: 30px
+      background-color: rgb(255, 255, 255)
+      border-radius: 15px
+      padding: 5px
+      height: 280px
+
+  footer
+    .logo_sect
+      .logo_f
+        height: 50px
+        width: 300px
+        padding-left: 550px
+        padding-bottom: 20px
+
+      background-color: #919191
+      padding-top: 10px
+      padding-bottom: 20px
+
+    .icon_sect
+      background-color: #919191
+      padding-left: 485px
+
+    .logo_sect .fot
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+      text-align: center
+      padding-left: 510px
+      margin: 0
+      width: 400px
+
+@media (max-width: 1024px) and (min-width: 395px)
+  .flex
+    header
+      font-size: 20px
+
+      a .olympus
+        display: inline-block
+        padding-left: 100px
+
+      .menu
+        display: inline-block
+        width: 700px
+        padding-left: 0
+
+    ul > li
+      margin-left: 15%
+
+    .big_section
+      width: 960px
+
+      .news_section
+        width: 600px
+
+        .big_article
+          width: 600px
+
+        .small_article1
+          width: 270px
+          margin: 0
+          margin-right: 20px
+          margin-top: 5px
+
+        .small_article2
+          width: 270px
+          margin: 0
+          margin-left: 20px
+          margin-top: 5px
+
+        .news_img
+          width: 600px
+          height: 300px
+
+        .news_img2, .news_img3
+          height: 150px
+          width: 270px
+
+      .short_news
+        width: 300px
+        padding-left: 25px
+
+      .section_table
+        width: 960px
+
+        .table_nba
+          width: 700px
+          margin-top: 10px
+          border-radius: 15px
+          background-color: rgb(255, 255, 255)
+
+          .east, .vest
+            width: 350px
+
+          .nba_icon
+            height: 60px
+            width: 60px
+
+    footer
+      .logo_sect
+        .logo_f
+          padding-left: 360px
+
+        padding-top: 10px
+        padding-bottom: 20px
+
+      .icon_sect
+        padding-left: 295px
+
+      .logo_sect .fot
+        padding-left: 310px
+        width: 400px
+
+@media (max-width: 394px)
+  .flex
+    header
+      flex-flow: row
+      flex-wrap: wrap
+      width: 393px
+      position: relative
+
+      a .olympus
+        display: inline-block
+        padding-left: 20px
+        padding-bottom: 5px
+
+      .dropM
+        width: 70px
+
+        .menu_img
+          width: 30px
+          height: 30px
+
+        input
+          display: none
+
+        ul
+          position: absolute
+          display: none
+          z-index: 10
+          background-color: #919191c1
+          width: 200px
+          padding-left: 0
+          margin-top: 0
+          border-radius: 0px 0px 0px   10px
+
+        \:checked ~ ul
+          display: inline-block
+
+          /* Показываем меню
+
+        label
+          display: inline-block
+          width: 30px
+          height: 30px
+          padding-top: 5px
+          margin-left: 120px
+
+    .big_section
+      width: 393px
+      padding: 0
+      padding-top: 10px
+
+      .news_section
+        width: 390px
+        margin: 0px
+
+    a
+      position: relative
+      width: 200px
+
+    .big_section
+      .news_section
+        .big_article
+          width: 390px
+
+        .small_article1
+          width: 390px
+          margin: 0
+          margin-right: 0px
+          margin-top: 10px
+
+        .small_article2
+          width: 390px
+          margin: 0
+          margin-left: 0px
+          margin-top: 10px
+
+        .news_img, .news_img2, .news_img3
+          position: relative
+          height: 220px
+          width: 390px
+          border-radius: 12px
+
+      .short_news
+        width: 380px
+        padding-left: 5px
+
+      .section_table
+        display: flex
+        flex-flow: wrap
+        width: 390px
+        margin-top: 30px
+
+        h3
+          font-family: Verdana, Geneva, Tahoma, sans-serif
+          font-weight: normal
+          margin: 0px
+
+        table
+          border-collapse: collapse
+          font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+          text-align: center
+
+          thead th
+            border-right: 0.5px solid rgb(215, 215, 215)
+
+        .table_nba
+          .vest
+            margin-top: 20px
+
+          display: flex
+          flex-flow: wrap
+          width: 390px
+          margin-top: 10px
+          border-radius: 15px
+          background-color: rgb(255, 255, 255)
+
+          .nba_icon
+            width: 30px
+            height: 30px
+
+        .lid_table
+          margin-top: 10px
+          margin-left: 80px
+          border-radius: 15px
+          padding: 5px
+          height: 280px
+
+    footer
+      .logo_sect
+        .logo_f
+          height: 60px
+          width: 350px
+          padding-left: 20px
+          padding-bottom: 20px
+
+        background-color: #919191
+        padding-top: 10px
+        padding-bottom: 20px
+
+      .icon_sect
+        background-color: #919191
+        padding-left: 0px
+
+        .icon
+          margin-left: 70px
+
+      .logo_sect .fot
+        padding-left: 5px
+        margin: 0
+        width: 380px

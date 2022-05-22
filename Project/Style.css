@@ -1,0 +1,591 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+.flex header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.flex header a .olympus {
+    display: inline-block;
+    padding-left: 230px;
+}
+
+.flex header .dropM {
+    display: inline-block; 
+}
+
+.flex header .menu {
+    display: inline-block;
+    width: 900px;
+    padding-left: 0;
+}
+
+.flex header input {
+    display: none;
+}
+
+.flex header label {
+    display: none;
+}
+
+.flex ul>li {
+    display: inline-block;
+    margin-left: 18%;
+
+}
+
+.flex footer {
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.flex footer .icon_sect .icon {
+    margin-top: 5px;
+    margin-left: 80px;
+    height: 35px;
+    width: 35px;
+}
+
+.flex .big_section {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 1080px;
+    padding: 30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.flex .big_section .news_section {
+    display: flex;
+    flex-flow: wrap;
+    width: 700px;
+    margin: 0px;
+}
+
+.flex .big_section .news_section .big_article {
+    display: block;
+    width: 700px;
+    margin: 0;
+}
+
+.flex .big_section .news_section .small_article1 {
+    flex-flow: row;
+    display: block;
+    width: 330px;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.flex .big_section .news_section .small_article2 {
+    flex-flow: row;
+    display: block;
+    width: 330px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.flex a {
+    position: relative;
+    width: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;  
+}
+
+.flex .big_section .news_section .hever_back {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.flex .big_section .news_section .news_img {
+    position: relative;
+    height: 370px;
+    width: 700px;
+    border-radius: 12px;
+}
+
+.flex .big_section .news_section .news_img2 {
+    position: relative;
+    height: 180px;
+    width: 330px;
+    border-radius: 12px;
+}
+
+.flex .big_section .news_section .news_img3 {
+    position: relative;
+    height: 180px;
+    width: 330px;
+    border-radius: 12px;
+}
+
+.flex .big_section .news_section .news_img:hover,
+.news_img2:hover,
+.news_img3:hover {
+    opacity: 0.7;
+}
+
+.flex .big_section .short_news {
+    width: 340px;
+    padding-left: 40px;
+}
+
+.flex .big_section .short_news h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    border-bottom: 1px solid rgb(108, 108, 108);
+}
+
+.flex .big_section .short_news .list_news {
+    padding: 0;
+    margin: 0px;
+}
+
+.flex .big_section .short_news .list_news>li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(108, 108, 108);
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.flex .big_section .section_table {
+    display: flex;
+    flex-flow: wrap;
+    width: 1080px;
+    margin-top: 30px;
+}
+
+.flex .big_section .section_table h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+}
+
+.flex .big_section .section_table table {
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+.flex .big_section .section_table table thead th {
+    border-right: 0.5px solid rgb(215, 215, 215);
+}
+
+.flex .big_section .section_table .table_nba {
+    display: flex;
+    flex-flow: wrap;
+    width: 800px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+}
+
+.flex .big_section .section_table .table_nba tr:nth-child(even) {
+    background-color: #d6d6d6;
+}
+
+.flex .big_section .section_table .lid_table table .foot_icon {
+    height: 60px;
+    width: 60px;
+    float: left;
+
+}
+
+.flex .big_section .section_table .table_nba .nba_icon {
+    height: 50px;
+    width: 50px;
+    float: left;
+}
+
+.flex .big_section .section_table .table_nba .east {
+    width: 400px;
+}
+
+.flex .big_section .section_table .table_nba .vest {
+    margin-left: 0px;
+    width: 400px;
+    border-left: 1px solid rgb(8, 8, 8);
+}
+
+.flex .big_section .section_table .lid_table .button_stat {
+    display: inline-block;
+    background-color: rgb(220, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 20px;
+    width: 110px;
+    border-radius: 20px;
+    margin: 25%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flex .big_section .section_table .lid_table .button_stat:hover {
+    transition: background-color 0.35s;
+    background-color: rgb(172, 172, 172);
+}
+
+.flex .big_section .section_table .table_nba .button_P {
+    display: inline-block;
+    background-color: rgb(220, 220, 220);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    height: 20px;
+    width: 110px;
+    border-radius: 20px;
+    margin: 50%;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.flex .big_section .section_table .table_nba .button_P:hover {
+    transition: background-color 0.35s;
+    background-color: rgb(172, 172, 172);
+}
+
+.flex .big_section .lid_table {
+    margin-top: 10px;
+    margin-left: 30px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 5px;
+    height: 280px;
+}
+
+.flex footer .logo_sect .logo_f {
+    height: 50px;
+    width: 300px;
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+
+.flex footer .logo_sect {
+    background-color: #919191;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.flex footer .icon_sect {
+    background-color: #919191;
+    padding-left: 485px;
+}
+
+.flex footer .logo_sect .fot {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-left: 510px;
+    margin: 0;
+    width: 400px;
+}
+ 
+@media(max-width: 1024px) and (min-width: 395px) {
+
+    .flex header  {
+        font-size: 20px;
+    }
+    .flex header a .olympus {
+        display: inline-block;
+        padding-left: 100px; 
+    }
+    
+    .flex header .menu {
+        display: inline-block;
+        width: 700px;
+        padding-left: 0;
+    }
+
+    .flex ul>li {
+        margin-left: 15%;
+    }
+
+    .flex .big_section  {
+        width: 960px;
+    }
+
+    .flex .big_section .news_section {
+        width: 600px;
+    }
+
+    .flex .big_section .news_section .big_article {
+        width: 600px;
+    }
+
+    .flex .big_section .news_section .small_article1 {
+        width: 270px;
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .flex .big_section .news_section .small_article2 {
+        width: 270px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .flex .big_section .news_section  .news_img {
+        width: 600px;
+        height: 300px;
+    }
+
+    .flex .big_section .news_section  .news_img2 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .flex .big_section .news_section .news_img3 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .flex .big_section .short_news {
+        width: 300px;
+        padding-left: 25px;
+    }
+
+    .flex .big_section .section_table {
+        width: 960px;
+    }
+
+    .flex .big_section .section_table .table_nba {
+        width: 700px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .flex .big_section .section_table .table_nba .east {
+        width: 350px;
+    }
+
+    .flex .big_section .section_table .table_nba .vest {
+        width: 350px;
+    }
+
+    .flex .big_section .section_table .table_nba .nba_icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .flex footer .logo_sect .logo_f {
+        padding-left: 360px;
+    }
+
+    .flex footer .logo_sect {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .flex footer .icon_sect {
+        padding-left: 295px;
+    }
+
+    .flex footer .logo_sect .fot {
+        padding-left: 310px;
+        width: 400px;
+    }
+}
+
+@media(max-width: 394px) {
+    
+    .flex header {
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 393px;
+        position: relative;
+    }
+
+    .flex header a .olympus {
+        display: inline-block;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    .flex header .dropM {
+        width: 70px; 
+    }
+    
+    .flex header .dropM .menu_img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .flex header .dropM input {
+        display: none;
+    }
+    
+    .flex header .dropM ul {
+        position: absolute;
+        display: none;
+        z-index: 10;
+        background-color: #919191c1 ;
+        width: 200px;
+        padding-left: 0;
+        margin-top: 0;
+        border-radius: 0px 0px 0px   10px;
+    }
+
+    .flex header .dropM  :checked ~ ul{
+        display: inline-block; /* Показываем меню */
+    }
+
+    .flex header .dropM  label {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        margin-left: 120px;
+    }
+    
+    .flex .big_section {
+        width: 393px;
+        padding: 0;
+        padding-top: 10px;
+    }
+    
+    .flex .big_section .news_section {
+        width: 390px;
+        margin: 0px;
+    }
+    .flex a {
+        position: relative;
+        width: 200px;
+    }
+    
+    .flex .big_section .news_section .big_article {
+        width: 390px;
+    }
+    
+    .flex .big_section .news_section .small_article1 {
+        width: 390px;
+        margin: 0;
+        margin-right: 0px;
+        margin-top: 10px;
+    }
+    
+    .flex .big_section .news_section .small_article2 {
+        width:390px;
+        margin: 0;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .flex .big_section .news_section .news_img {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+    
+    .flex .big_section .news_section .news_img2 {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+    
+    .flex .big_section .news_section .news_img3 {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+
+    .flex .big_section .short_news {
+        width: 380px;
+        padding-left: 5px;
+    }
+
+    .flex .big_section .section_table {
+        display: flex;
+        flex-flow: wrap;
+        width: 390px;
+        margin-top: 30px;
+    }
+    
+    .flex .big_section .section_table h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin: 0px;
+    }
+    
+    .flex .big_section .section_table table {
+        border-collapse: collapse;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    }
+    
+    .flex .big_section .section_table table thead th {
+        border-right: 0.5px solid rgb(215, 215, 215);
+    }
+    
+    .flex .big_section .section_table .table_nba .vest {
+        margin-top: 20px;
+    }
+    
+    .flex .big_section .section_table .table_nba {
+        display: flex;
+        flex-flow: wrap;
+        width: 390px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .flex .big_section .section_table .table_nba .nba_icon {
+         width: 30px;
+         height: 30px;
+    }
+
+    .flex .big_section .section_table .lid_table {
+        margin-top: 10px;
+        margin-left: 80px;
+        border-radius: 15px;
+        padding: 5px;
+        height: 280px;
+    }
+    .flex footer .logo_sect .logo_f {
+        height: 60px;
+        width: 350px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .flex footer .logo_sect {
+        background-color: #919191;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .flex footer .icon_sect {
+        background-color: #919191;
+        padding-left: 0px;
+    }
+
+    .flex footer .icon_sect .icon {
+        margin-left: 70px;
+    }
+    
+    .flex footer .logo_sect .fot {
+        padding-left: 5px;
+        margin: 0;
+        width: 380px;
+    }
+}

@@ -1,0 +1,552 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    background-color: #dcdcdc;
+}
+
+header {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 24px;
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.olympus {
+    display: inline-block;
+    padding-left: 230px;
+}
+
+.dropM {
+    display: inline-block; 
+}
+
+.menu {
+    display: inline-block;
+    width: 900px;
+    padding-left: 0;
+}
+
+input {
+    display: none;
+}
+
+header label {
+    display: none;
+}
+
+footer {
+    background-color: #919191;
+    color: rgb(1, 1, 1);
+    width: 100%;
+}
+
+.icon {
+    margin-top: 5px;
+    margin-left: 80px;
+    height: 35px;
+    width: 35px;
+}
+
+ul>li {
+    display: inline-block;
+    margin-left: 18%;
+
+}
+
+.menu_span {
+    display: none;
+    font-family: 'Monoton', cursive;
+}
+
+.big_section {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    width: 1080px;
+    padding: 30px;
+    background-color: rgb(237, 237, 237);
+}
+
+.news_section {
+    display: flex;
+    flex-flow: wrap;
+    width: 700px;
+    margin: 0px;
+}
+
+.hever_back {
+    background-color: black;
+    border-radius: 15px;
+}
+
+.news_img:hover,
+.news_img2:hover,
+.news_img3:hover {
+    opacity: 0.7;
+}
+
+a {
+    position: relative;
+    width: 700px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+
+}
+
+.big_article {
+    display: block;
+    width: 700px;
+    margin: 0;
+}
+
+.small_article1 {
+    flex-flow: row;
+    display: block;
+    width: 330px;
+    margin: 0;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+.small_article2 {
+    flex-flow: row;
+    display: block;
+    width: 330px;
+    margin: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.news_img {
+    position: relative;
+    height: 370px;
+    width: 700px;
+    border-radius: 12px;
+}
+
+.news_img2 {
+    position: relative;
+    height: 180px;
+    width: 330px;
+    border-radius: 12px;
+}
+
+.news_img3 {
+    position: relative;
+    height: 180px;
+    width: 330px;
+    border-radius: 12px;
+}
+
+.short_news {
+    width: 340px;
+    padding-left: 40px;
+}
+
+h2 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+    border-bottom: 1px solid rgb(108, 108, 108);
+}
+
+.list_news {
+    padding: 0;
+    margin: 0px;
+}
+
+.list_news>li {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 1px solid rgb(108, 108, 108);
+    margin: 0;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+}
+
+.section_table {
+    display: flex;
+    flex-flow: wrap;
+    width: 1080px;
+    margin-top: 30px;
+    padding-top: 0;
+    background-color: aliceblue;
+}
+
+h3 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: normal;
+    margin: 0px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+
+}
+
+th {
+    border-right: 0.5px solid rgb(215, 215, 215);
+}
+
+.table_nba {
+    display: flex;
+    width: 1080px;
+    margin-top: 10px;
+
+}
+
+.table_nba tr:nth-child(even) {
+    background-color: #d6d6d6;
+}
+
+.nba_icon {
+    height: 60px;
+    width: 60px;
+    float: left;
+
+}
+
+.east {
+    margin-right: 322px;
+}
+
+.vest {
+    margin-left: 70px;
+}
+
+.logo_f {
+    height: 50px;
+    width: 300px;
+    padding-left: 550px;
+    padding-bottom: 20px;
+}
+
+.logo_sect {
+    background-color: #919191;
+    padding-bottom: 20px;
+}
+
+.icon_sect {
+    background-color: #919191;
+    padding-left: 485px;
+}
+
+.fot {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    padding-left: 510px;
+    margin: 0;
+    width: 400px;
+}
+@media(max-width: 1024px) and (min-width: 395px) {
+
+    header {
+        font-size: 20px;
+    }
+    .olympus {
+        display: inline-block;
+        padding-left: 100px;
+        
+    }
+    
+    .menu {
+        display: inline-block;
+        width: 700px;
+        padding-left: 0;
+    }
+
+    ul>li {
+        margin-left: 15%;
+    }
+
+    .big_section {
+
+        width: 960px;
+
+    }
+
+    .news_section {
+
+        width: 600px;
+
+    }
+
+    .big_article {
+
+        width: 600px;
+
+    }
+
+    .small_article1 {
+        width: 270px;
+        margin: 0;
+        margin-right: 20px;
+        margin-top: 5px;
+    }
+
+    .small_article2 {
+        width: 270px;
+        margin: 0;
+        margin-left: 20px;
+        margin-top: 5px;
+    }
+
+    .news_img {
+
+        width: 600px;
+        height: 300px;
+    }
+
+    .news_img2 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .news_img3 {
+        height: 150px;
+        width: 270px;
+    }
+
+    .short_news {
+        width: 300px;
+        padding-left: 25px;
+    }
+
+    .section_table {
+        width: 960px;
+    }
+
+    .table_nba {
+        width: 700px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .east {
+        width: 350px;
+    }
+
+    .vest {
+        width: 350px;
+    }
+
+    .nba_icon {
+        height: 60px;
+        width: 60px;
+    }
+
+    .logo_f {
+        padding-left: 360px;
+    }
+
+    .logo_sect {
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+
+    .icon_sect {
+        padding-left: 295px;
+    }
+
+    .fot {
+        padding-left: 310px;
+        width: 400px;
+    }
+}
+@media (max-width: 394px) {
+    
+    header {
+        flex-flow: row;
+        flex-wrap: wrap;
+        width: 393px;
+        position: relative;
+    }
+
+    .olympus {
+        display: inline-block;
+        padding-left: 20px;
+        padding-bottom: 5px;
+    }
+
+    .dropM {
+        width: 70px; 
+    }
+    
+    .dropM .menu_img{
+        width: 30px;
+        height: 30px;
+    }
+    
+    .dropM input {
+        display: none;
+    }
+    
+    .dropM ul {
+        position: absolute;
+        display: none;
+        z-index: 10;
+        background-color: #919191c1 ;
+        width: 200px;
+        padding-left: 0;
+        margin-top: 0;
+        border-radius: 0px 0px 0px   10px;
+    }
+
+    .dropM  :checked ~ ul{
+        display: inline-block; /* Показываем меню */
+    }
+
+    .dropM  label {
+        display: inline-block;
+        width: 30px;
+        height: 30px;
+        padding-top: 5px;
+        margin-left: 120px;
+    }
+    
+    .big_section {
+        width: 393px;
+        padding: 0;
+        padding-top: 10px;
+    }
+    
+    .news_section {
+        width: 390px;
+        margin: 0px;
+    }
+    a {
+        position: relative;
+        width: 200px;
+    
+    }
+    
+    .big_article {
+        width: 390px;
+    }
+    
+    .small_article1 {
+        width: 390px;
+        margin: 0;
+        margin-right: 0px;
+        margin-top: 10px;
+    
+    }
+    
+    .small_article2 {
+        width:390px;
+        margin: 0;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+
+    .news_img {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+    
+    .news_img2 {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+    
+    .news_img3 {
+        position: relative;
+        height: 220px;
+        width: 390px;
+        border-radius: 12px;
+    }
+
+    .short_news {
+        width: 380px;
+        padding-left: 5px;
+    }
+
+    .section_table {
+        display: flex;
+        flex-flow: wrap;
+        width: 390px;
+        margin-top: 30px;
+    }
+    
+    h3 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-weight: normal;
+        margin: 0px;
+    }
+    
+    table {
+        border-collapse: collapse;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        text-align: center;
+    
+    }
+
+    .vest {
+        margin: 0;
+    }
+    
+    th {
+        border-right: 0.5px solid rgb(215, 215, 215);
+    }
+    
+    .table_nba {
+        display: flex;
+        flex-flow: wrap;
+        width: 390px;
+        margin-top: 10px;
+        border-radius: 15px;
+        background-color: rgb(255, 255, 255);
+    }
+
+    .lid_table {
+        margin-top: 10px;
+        margin-left: 80px;
+        border-radius: 15px;
+        padding: 5px;
+        height: 280px;
+    }
+    .logo_f {
+        height: 60px;
+        width: 350px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .logo_sect {
+        background-color: #919191;
+        padding-top: 10px;
+        padding-bottom: 20px;
+    }
+    
+    .icon_sect {
+        background-color: #919191;
+        padding-left: 0px;
+    }
+
+    .nba_icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .icon {
+        margin-left: 70px;
+    }
+    
+    .fot {
+        padding-left: 5px;
+        margin: 0;
+        width: 380px;
+    }
+}
